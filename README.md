@@ -1,42 +1,29 @@
-# eg_data
-<div align="center">
+# Backup Extractor – Advanced Secure Automation Tool
 
-<h1>⚡ BACKUP EXTRACTOR</h1>
+A lightweight, modular, security‑focused automation tool designed for advanced users, penetration testers, researchers, and power‑users who want a fully encrypted, self‑contained backup system for Android (Termux) or Linux environments.
 
-<p>
-<b><i>Advanced Secure Automation Tool for Power‑Users, Researchers & Pentesters</i></b>
-</p>
+This tool creates a secure workflow where:
+- Sensitive configuration files remain encrypted
+- The main script runs backups safely
+- A dedicated stop controller halts long tasks instantly
+- Setup scripts auto‑create required folders & permissions
 
-<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
-<img src="https://img.shields.io/badge/Security-Encrypted-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-orange?style=for-the-badge">
+## ⚡ Features
+- Encrypted configuration using strong key‑based protection
+- Auto-backup engine to securely send files to remote endpoints
+- Stop process module to abort running backups safely
+- Smart logging system that avoids duplicate processing
+- Modular file structure (backup script, setup script, encryption script, stop script)
+- Works on Termux / Linux
+- Lightweight, minimal dependencies, fast execution
 
-<br><br>
-
-<pre>
-██████╗  █████╗  ██████╗██╗  ██╗██╗   ██╗██████╗ 
-██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██║   ██║██╔══██╗
-██████╔╝███████║██║     █████╔╝ ██║   ██║██████╔╝
-██╔══██╗██╔══██║██║     ██╔═██╗ ██║   ██║██╔══██╗
-██║  ██║██║  ██║╚██████╗██║  ██╗╚██████╔╝██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-</pre>
-
-</div>
+## 🧩 Project Structure
 
 ---
 
-## 🔥 Overview
-
-**Backup Extractor** is a lightweight but powerful automation tool built for:
-- Secure file backups  
-- Encrypted config handling  
-- Automated workflows  
-- Instant stop control  
-- Termux + Linux environments  
-
-Designed with a **modern hacker-style architecture** focused on security, modularity, and speed.
-
----
-
-## 🧩 **
+## 🚀 Installation
+```bash
+git clone https://github.com/EgaleX5/eg_data.git
+cd eg_data
+bash setup.sh
+backup
